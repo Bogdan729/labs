@@ -3,7 +3,7 @@
 using namespace std;
 
 int isInArea(double x, double y) {
-	if (((x * x + y * y <= 1) && x > 0 && y < 1) || (x <= 1 && x >= 0 && y <= 1 && y >= 0)) {
+	if (((x * x + y * y <= 1) && 0 <= x <= 1 && y < 1) || (0 <= x <= 1 && 0 <= y <= 1)) {
 		return 1;
 	}
 	else {
@@ -12,11 +12,7 @@ int isInArea(double x, double y) {
 }
 
 double f(double x) {
-	if (x <= 3) {
-		return x * x - 3 * x + 9;
-	} else {
-		return 1 / (x * x * x + 6);
-	}
+	return (x <= 3) ? x * x - 3 * x + 9 : 1 / (x * x * x + 6);
 }
 
 int main() {

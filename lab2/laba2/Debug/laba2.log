@@ -1,2 +1,5 @@
 ﻿  main.cpp
-  laba2.vcxproj -> D:\labs\lab2\laba2\Debug\laba2.exe
+D:\labs\lab2\laba2\main.cpp(6,33): warning C4804: <=: небезопасное использование типа "bool" в операции
+D:\labs\lab2\laba2\main.cpp(6,59): warning C4804: <=: небезопасное использование типа "bool" в операции
+D:\labs\lab2\laba2\main.cpp(6,74): warning C4804: <=: небезопасное использование типа "bool" в операции
+  laba2.vcxproj -> D:\labs\lab2\Debug\laba2.exe
